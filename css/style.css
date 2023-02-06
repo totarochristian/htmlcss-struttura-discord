@@ -1,0 +1,12 @@
+:root{
+    --bg-header: #255EE9;
+    --bg-body-general: #FFFFFF;
+    --bg-body-alternative: #F6F6F6;
+    --bg-footer: #23272A;
+    --txt-header-footer: #FFFFFF;
+    --txt-body: #0E0E0E;
+    --bg-btn-light: #FFFFFF;
+    --bg-btn-dark: #23272A;
+    --bg-btn-colored: #7289DA;
+    --txt-footer-titles: #7287D5;
+}
