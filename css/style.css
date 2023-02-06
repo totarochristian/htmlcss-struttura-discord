@@ -191,7 +191,26 @@ article .reverse-rows img{
     width: 100rem;
 }
 /* Download */
-
+.download .stars{
+    max-width: 500px;
+    height: 3rem;
+    margin: 0 auto;
+    background-image: url("../img/stars.svg");
+    background-size: contain;
+    margin-bottom: -1rem;
+}
+.download h3{
+    font-size: 1.45rem;
+}
+.download .btn{
+    margin-top: 2.5rem;
+    margin-bottom: 3rem;
+    display: inline-block;
+}
+.download{
+    display: inline-block;
+    margin-bottom: 4rem;
+}
 
 /* Footer */
 footer{
