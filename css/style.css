@@ -220,6 +220,7 @@ footer{
     background-color: var(--bg-footer);
     color: var(--txt-header-footer);
     font-size: 1rem;
+    padding-top: 1rem;
 }
 footer .d-flex{
     padding: 1rem;
@@ -229,4 +230,14 @@ footer .btn{
 }
 footer h3{
     color: var(--txt-footer-titles);
+    padding-top: 1rem;
+}
+footer li{
+    padding: 1rem 0;
+}
+footer .list{
+    width: 15%;
+}
+footer .contacts{
+    width: 25%;
 }
