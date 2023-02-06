@@ -219,4 +219,14 @@ article .reverse-rows img{
 footer{
     background-color: var(--bg-footer);
     color: var(--txt-header-footer);
+    font-size: 1rem;
+}
+footer .d-flex{
+    padding: 1rem;
+}
+footer .btn{
+    padding: 7px 14px;
+}
+footer h3{
+    color: var(--txt-footer-titles);
 }
