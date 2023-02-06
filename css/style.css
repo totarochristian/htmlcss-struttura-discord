@@ -150,6 +150,7 @@ main{
 main .bgAlternative{
     background-color: var(--bg-body-alternative);
 }
+/* Articles */
 .leftContent{
     width: 55%;
 }
@@ -164,7 +165,7 @@ main .bgAlternative{
     max-width: 500px;
     margin-left: 3rem;
 }
-.text p{
+.text p, .description p{
     font-size: 1.6rem;
     margin-top: 2rem;
 }
@@ -178,6 +179,19 @@ article img{
 article .reverse-rows img{
     float: left;
 }
+/* Technology section */
+.description{
+    padding: 8rem 0 2rem 0;
+}
+.description h1, .description p{
+    max-width: 1350px;
+    margin: 2rem auto;
+}
+.description img{
+    width: 100rem;
+}
+/* Download */
+
 
 /* Footer */
 footer{
