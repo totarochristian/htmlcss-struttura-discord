@@ -61,3 +61,6 @@ footer{
     background-color: var(--bg-footer);
     color: var(--txt-header-footer);
 }
+footer .list ul{
+    list-style: none;
+}
