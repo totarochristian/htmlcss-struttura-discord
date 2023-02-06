@@ -169,10 +169,11 @@ main .bgAlternative{
     margin-top: 2rem;
 }
 article{
-    padding: 4rem 1rem 8rem 1rem;
+    padding: 8rem 1rem 11rem 1rem;
 }
 article img{
     float: right;
+    width: 50rem;
 }
 article .reverse-rows img{
     float: left;
