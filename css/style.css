@@ -1,3 +1,4 @@
+/* Variables definition */
 :root{
     --bg-header: #255EE9;
     --bg-body-general: #FFFFFF;
@@ -10,3 +11,10 @@
     --bg-btn-colored: #7289DA;
     --txt-footer-titles: #7287D5;
 }
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* General */
