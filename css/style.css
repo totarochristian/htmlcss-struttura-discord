@@ -220,24 +220,26 @@ footer{
     background-color: var(--bg-footer);
     color: var(--txt-header-footer);
     font-size: 1rem;
-    padding-top: 1rem;
-}
-footer .d-flex{
-    padding: 1rem;
+    padding: 1rem 0;
 }
 footer .btn{
     padding: 7px 14px;
 }
-footer h3{
+footer h3, footer h2{
     color: var(--txt-footer-titles);
     padding-top: 1rem;
 }
 footer li{
     padding: 1rem 0;
 }
-footer .list{
+footer .list, footer .contacts{
     width: 15%;
 }
-footer .contacts{
-    width: 25%;
+footer select{
+    margin: 1rem 0 0.7rem 0;
+}
+footer .contacts .d-flex{
+    max-width: 200px;
+    font-size: 1.5rem;
+    padding: 1rem 0;
 }
