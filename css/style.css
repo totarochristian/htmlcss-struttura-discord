@@ -22,9 +22,10 @@
 /* General */
 body{
     font-family: 'Noto Sans', sans-serif;
+    font-size: 1.3rem;
 }
 .mainContent{
-    max-width: 1400px;
+    max-width: 1650px;
     margin: 0 auto;
 }
 .debug{
@@ -36,6 +37,9 @@ a{
 }
 a:hover{
     text-decoration: underline;
+}
+.text-centered{
+    text-align: center;
 }
 
 /* Flexbox */
@@ -50,6 +54,9 @@ a:hover{
 }
 .row-align-center{
     align-items: center;
+}
+.row-content-center{
+    justify-content: center;
 }
 .justify-around{
     justify-content: space-around;
@@ -69,7 +76,6 @@ a:hover{
 .btn{
     border-radius: 15px;
     padding: 7px 16px;
-    color: var(--txt-body);
 }
 .btn:hover{
     text-decoration: none;
@@ -78,19 +84,22 @@ a:hover{
 }
 .light{
     background-color: var(--bg-btn-light);
+    color: var(--txt-body);
 }
 .dark{
     background-color: var(--bg-btn-dark);
+    color: var(--txt-header-footer);
 }
 .colored{
     background-color: var(--bg-btn-colored);
+    color: var(--txt-header-footer);
 }
 
 /* Header */
 header{
     background-color: var(--bg-header);
     color: var(--txt-header-footer);
-    padding: 1.5rem 1.5rem;
+    padding-top: 2rem;
 }
 .logo, .login{
     width: 25%;
@@ -100,6 +109,26 @@ header{
 }
 header .list{
     width: 50%;
+}
+header section{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: 50% 75%;
+}
+header section .textContainer{
+    width: 40%;
+    padding: 17rem 0 11rem 0;
+}
+header section div h1{
+    font-size: 3.5rem;
+    margin-bottom: 3rem;
+}
+header section div p{
+    line-height: 2rem;
+}
+.buttons{
+    padding: 1rem 0;
+    gap: 1.5rem;
 }
 
 /* Main content */
