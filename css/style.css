@@ -33,3 +33,7 @@ footer{
     background-color: var(--bg-footer);
     color: var(--txt-header-footer);
 }
+.mainContent{
+    max-width: 1400px;
+    margin: 0 auto;
+}
