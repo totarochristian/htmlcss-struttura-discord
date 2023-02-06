@@ -37,6 +37,9 @@ body{
     flex-flow: row wrap;
     justify-content: space-between;
 }
+.reverse-rows{
+    flex-direction: row-reverse;
+}
 .justify-around{
     justify-content: space-around;
 }
@@ -68,6 +71,12 @@ main{
 }
 main .bgAlternative{
     background-color: var(--bg-body-alternative);
+}
+.leftContent{
+    width: 40%;
+}
+.rightContent{
+    width: 60%;
 }
 
 /* Footer */
