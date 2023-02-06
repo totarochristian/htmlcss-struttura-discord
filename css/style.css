@@ -28,6 +28,14 @@ body{
     margin: 0 auto;
 }
 
+/* Flexbox */
+.d-flex{
+    display: flex;
+    flex-flow: row wrap;
+    align-content: space-between;
+    align-items: flex-start;
+}
+
 /* Header */
 header{
     background-color: var(--bg-header);
