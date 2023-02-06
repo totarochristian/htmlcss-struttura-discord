@@ -41,10 +41,24 @@ body{
     justify-content: space-around;
 }
 
+/* General list */
+.list ul{
+    list-style: none;
+}
+
 /* Header */
 header{
     background-color: var(--bg-header);
     color: var(--txt-header-footer);
+}
+.logo, .login{
+    width: 25%;
+}
+.login{
+    text-align: right;
+}
+header .list{
+    width: 50%;
 }
 
 /* Main content */
@@ -60,7 +74,4 @@ main .bgAlternative{
 footer{
     background-color: var(--bg-footer);
     color: var(--txt-header-footer);
-}
-footer .list ul{
-    list-style: none;
 }
