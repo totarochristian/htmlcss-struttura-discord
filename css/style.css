@@ -44,6 +44,9 @@ a:hover{
 .text-centered{
     text-align: center;
 }
+i{
+    margin-right: 10px;
+}
 
 /* Flexbox */
 .d-flex{
