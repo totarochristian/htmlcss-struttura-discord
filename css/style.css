@@ -18,6 +18,9 @@
     box-sizing: border-box;
 }
 /* General */
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 header{
     background-color: var(--bg-header);
     color: var(--txt-header-footer);
