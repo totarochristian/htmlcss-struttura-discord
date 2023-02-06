@@ -27,13 +27,18 @@ body{
     max-width: 1400px;
     margin: 0 auto;
 }
+.debug{
+    border: 2px solid yellow;
+}
 
 /* Flexbox */
 .d-flex{
     display: flex;
     flex-flow: row wrap;
-    align-content: space-between;
-    align-items: flex-start;
+    justify-content: space-between;
+}
+.justify-around{
+    justify-content: space-around;
 }
 
 /* Header */
